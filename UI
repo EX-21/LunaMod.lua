@@ -1897,7 +1897,7 @@ local function Hide(Window, bind, notif)
 		end
 	end
 
-	task.wait(0.28)
+	task.wait(0.0)
 	Window.Size = UDim2.new(0,0,0,0)
 	Window.Parent.ShadowHolder.Visible = false
 	task.wait()
